@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92">
+	<author>MrSalitos</author>
+	<version>1.0.0.0</version>
+	
+	<title>
+		<en>easyTrailer</en>
+		<de>easyTrailer</de>
+	</title>
+	
+	<description>
+		<en><![CDATA[This Mod simplifies reverse driving with Trailers]]></en>
+		<de><![CDATA[Diese Mod erleichtert das Rückwärtsfahren mit Anhängern]]></de>
+	</description>
+	
+	<iconFilename>icon_.dds</iconFilename>
+	<multiplayer supported="true" />
+	
+	<extraSourceFiles>
+		<sourceFile filename="scripts/easyTrailerTest.lua" />
+	</extraSourceFiles>
+</modDesc>

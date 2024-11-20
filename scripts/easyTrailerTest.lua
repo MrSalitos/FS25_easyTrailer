@@ -36,7 +36,7 @@ end;
 function easyTrailer:GetReverseGear(vehicle)
 	local isMotorized = self.spec_motorized
     print("easyTrailer: GetReverseGear()")
-	if isDrivable ~= nil then
+	if isMotorized ~= nil then
 		return  vehicle.spec_motorized.motor:getDrivingDirection() == -1
 	end
 	

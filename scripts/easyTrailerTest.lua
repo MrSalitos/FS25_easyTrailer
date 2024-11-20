@@ -5,26 +5,6 @@ easyTrailer = {}
 
 print("easyTrailer: ")
 
--- function easyTrailer.registerEventListeners(vehicleType)
-
-    -- print("easyTrailer: Event-Listener registriert")
-
-    -- local functionNames = {
-
-        -- "onLoad",
-
-        -- "onUpdate"
-
-    -- }
-
-    -- for _, functionName in ipairs(functionNames) do
-
-        -- SpecializationUtil.registerEventListener(vehicleType, functionName, easyTrailer);
-
-    -- end;
-
--- end
-
 function easyTrailer.GetCurrentVehicle()
 	return g_currentMission.playerSystem:getLocalPlayer():getCurrentVehicle()
 end
@@ -61,16 +41,4 @@ function easyTrailer:update(dt, isActiveForInput, isActiveForInputIngnoreSelecti
 	end
 end
 
-
--- function easyTrailer:load(savegame)
-
-    -- g_game.mission:addUpdateListener(self.update)
-
-    -- print("easyTrailer: geladen")
-
--- end
-
-
 addModEventListener(easyTrailer)
-
--- g_currentMission:addEventListener(g_currentMission.EVENT_CONTROL_VEHICLE, easyTrailer.onUpdate)

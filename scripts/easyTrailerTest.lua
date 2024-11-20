@@ -1,6 +1,5 @@
 -- Testmod für den LS25
 
-
 easyTrailer = {}
 
 print("easyTrailer: ")
@@ -24,7 +23,6 @@ function easyTrailer:GetReverseGear(vehicle)
 
 end
 
-
 function easyTrailer:update(dt, isActiveForInput, isActiveForInputIngnoreSelection, isSelected)
 
 	if g_currentMission ~= nil then
@@ -33,9 +31,7 @@ function easyTrailer:update(dt, isActiveForInput, isActiveForInputIngnoreSelecti
 		if vehicle ~= nil then
 		print("Fahrzeug erkannt")
 			if self.GetReverseGear(vehicle) then
-
 				print("Ein Rückwärtsgang ist eingelegt.")
-
 			end
 		end
 	end
